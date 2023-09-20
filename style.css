@@ -1,0 +1,299 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", sans-serif;
+  padding-left: 340px;
+  padding-top: 220px;
+  background-color: #e2e8f0;
+  padding-bottom: 70px;
+}
+
+p,
+h3,
+h2,
+h4 {
+  margin: 0;
+}
+
+header {
+  box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  left: 310px;
+  top: 0;
+  right: 0;
+  height: 200px;
+  padding-left: 60px;
+  background-color: white;
+  z-index: 1;
+}
+
+header .first-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+header .first-div img {
+  height: 23px;
+  cursor: pointer;
+  margin-right: 14px;
+  vertical-align: middle;
+}
+
+header .first-div input {
+  padding: 8px 330px;
+  border-radius: 18px;
+  margin-bottom: 0px;
+  border: none;
+  background-color: #e2e8f0;
+}
+
+header .first-div input:focus {
+  border: 1px solid #e2e8f0;
+}
+
+header .second-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 80px;
+}
+
+header .second-div .ring-bell {
+  height: 32px;
+  margin-right: 25px;
+}
+
+header .second-div .profile-picture {
+  height: 60px;
+  margin-right: 25px;
+}
+
+header .second-div p {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+header .second-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .third-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+header .third-div img {
+  height: 85px;
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+header .third-div .profile-infos p {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  padding-top: 9px;
+}
+
+header .third-div .profile-infos h3 {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-top: 0px;
+}
+
+header .forth-div {
+  padding-right: 55px;
+  margin-top: 20px;
+}
+
+header .forth-div button {
+  padding: 14px 35px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 900;
+  border: none;
+  color: white;
+  background-color: #0ea5e9;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.sidebar {
+  width: 310px;
+  background-color: #0ea5e9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.sidebar .logo {
+  display: grid;
+  grid-template-columns: 50px 55px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.sidebar .logo a {
+  color: white;
+  font-size: 32px;
+  font-weight: 900;
+  text-decoration: none;
+  margin-left: 20px;
+  padding-top: 9px;
+}
+
+.sidebar .logo img {
+  height: 55px;
+  padding-top: 0;
+}
+
+.first-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.first-info a,
+.second-info a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-top: 3px;
+}
+
+.second-info {
+  padding-left: 30px;
+}
+
+.first-info .first-line,
+.second-info .second-line {
+  display: grid;
+  grid-template-columns: 45px 45px;
+}
+
+.first-info .first-line img,
+.second-info .second-line img {
+  height: 28px;
+}
+
+.small-divs {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  row-gap: 40px;
+  column-gap: 40px;
+}
+
+.small-divs .infos {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  padding-left: 25px;
+  padding-top: 30px;
+  padding-right: 20px;
+  background-color: white;
+  border-left: 10px solid #facc15;
+  position: relative;
+}
+.icons {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.small-divs .infos h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.small-divs .infos p {
+  font-size: 18px;
+  color: rgb(86, 84, 84);
+  font-weight: 500s;
+  margin-top: 6px;
+  width: 420px;
+}
+
+.small-divs .icons img {
+  height: 25px;
+  margin-right: 15px;
+}
+
+.main-section .all-divs {
+  display: flex;
+}
+
+.first-clone {
+  margin-left: 30px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.first-clone h4 {
+  font-size: 19px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.first-clone p {
+  width: 350px;
+  margin-top: 3px;
+  margin-bottom: 23px;
+  font-size: 16px;
+  color: rgb(86, 84, 84);
+  width: 320px;
+}
+
+.second-clone {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 30px;
+  border-radius: 16px;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.second-clone .profiles {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.second-clone .profiles img {
+  height: 70px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.second-clone .profiles h3 {
+  font-size: 19px;
+  margin-bottom: 3px;
+  font-weight: 800;
+  padding-top: 12px;
+}
+
+.second-clone .profiles p {
+  font-weight: 500;
+  font-size: 17px;
+  color: rgb(86, 84, 84);
+}
